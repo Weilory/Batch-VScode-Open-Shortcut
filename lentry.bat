@@ -10,3 +10,5 @@ for %%f in (*) do call :scan %%f
 			code . %1
 			goto :eof
 		)
+
+ENDLOCAL
