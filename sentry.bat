@@ -21,6 +21,7 @@ for /R %%f in (*) do (
 	call :again "%%f"
 	)
 
+ENDLOCAL
 goto :eof
 
 :again
